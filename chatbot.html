@@ -1,0 +1,152 @@
+<html>
+	<head>
+		<title>
+			chatbot
+		</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<style>
+	#box{
+  width: 400px;
+  height: auto;
+  box-shadow: 5px 5px 20px #000;
+  position: fixed;
+  top: 65%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  display: none;
+}
+.top{
+  width: 100%;
+  height: auto;
+  background: #2a2f32;
+}
+.top h1{
+  margin: 0;
+  font-size: 20px;
+  color: #fff;
+  padding-top: 10px;
+  text-align: center;
+  font-family: monospace;
+}
+.mid{
+  width: 100%;
+  height: auto;
+  background: white;
+}
+.mid .chat{
+  width: 100%;
+}
+.mid .chat h2{
+margin: 0;
+font-size: 20px;
+color: #000;
+background: white;
+padding: 30px 20px;
+
+}
+.mid .chat p{
+  margin: 0;
+  font-size: 20px;
+  background: white;
+  padding: 50px 20px;
+  color: black;
+  font-weight: 600;
+  letter-spacing: 0.04;
+}
+.input{
+  width: 100%;
+  height:auto;
+  overflow: hidden;
+}
+.input input{
+  width: 80%;
+  height: auto;
+  outline: none;
+  border: none;
+  padding-top: 0;
+  font-family: cursive;
+  color: black;
+  font-size: 20px;
+  background: white;
+padding: 25px;
+}
+.button{
+  float: right;
+  width: 20%;
+  height: 79px;
+  background: white;
+  color: #2a2f32;
+  padding: 20px;
+  font-size: 15px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+
+}
+.button1{
+   height: auto;
+   float: right;
+  background: #2a2f32;
+  color: white;
+}
+.btn{
+  color: deeppink;
+  background: black;
+  border-radius: 25px;
+  font-weight: 900;
+  box-shadow: 5px 5px 20px #000;
+}
+    </style>
+	</head>
+	<body>
+
+		<script>
+			function show() {
+			var x = document.getElementById("box");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }}</script>
+
+<button class="btn" onclick="show()">CHAT NOW!!!</button>
+		<div id="box">
+			<div class="top">
+				<h1>Ask your Question??<div class="button1"><button onclick="show()"><i class="fa fa-times"></i></button> &emsp;</div></h1>
+			</div>
+			<div class="mid">
+					<p id="chatLog">let's chat</p>
+				</div>
+			</div>
+			<div class="input">
+				<input id="userBox" type="text" autocomplete="off" onkeydown="if (event.keyCode == 13) {talk()}" placeholder="type your questions">
+
+		<button class="button" onclick="talk()"><i style="font-size: 25px;"class="fa fa-paper-plane"></i></button>
+			</div>
+		</div>
+
+<script>
+		function talk(){
+	var know ={
+		"hi" : "hi  this is developer",
+		"how r u" : "good",
+		"tq" : "welcome",
+		"" : "",
+		"" : "",
+	};
+	var user = document.getElementById('userBox').value;
+	document.getElementById('chatLog').innerHTML = user + "<br>";
+	if (user in know) {
+	document.getElementById('chatLog').innerHTML = know[user] + "<br>";
+
+	}else{
+	document.getElementById('chatLog').innerHTML =  "sorry i dont understand<br>";
+
+	}
+
+}
+</script>
+	</body>
+</html>
