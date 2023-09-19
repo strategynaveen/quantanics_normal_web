@@ -11,12 +11,13 @@ body{
 .navbar{
   padding:1% ;
   font-weight: bolder;
+  
 }
 
 .navbar-brand{
   color: #0492c2;
   opacity:0.8;
-  font-size: 25px;
+  font-size: 16px;
   font-weight: bolder;
 }
 .navbar-brand img{
