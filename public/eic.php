@@ -21,6 +21,7 @@
     integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
     </script>
     <link rel="stylesheet" href="contact.css?version=<?php echo rand(); ?>">
+   
 </head>
 <body>
 
@@ -60,21 +61,59 @@ under this initiative.</p>
         </div>
     </div>
 
+    <!--  -->
 
     <!-- eligibility criteria -->
     <div class="row " style="margin-top:4rem;margin-bottom:4rem;">
-        <h2 class="mx-auto font-weight-bold text-center text-decoration-underline">Eligibility Criteria</h2>
-        <div class="col-lg-10 mx-auto">
+        <h2 class="mx-auto font-weight-bold text-center text-decoration-underline" style="font-weight:600;">Process Road Map</h2>
+        <!-- <div class="col-lg-10 mx-auto">
             <ul class="list-group ml-2" style="font-size:19px;font-family:inherit">
                 <li class="list-group-item">Students enrolled in accredited educational institutions.</li>
                 <li class="list-group-item">Teams consisting of up to [maximum team size 3] members.</li>
                 <li class="list-group-item">PoCs should align with the theme and objectives of the scheme.</li>
             </ul>
+        </div> -->
+        <div class="col-lg-3 col-md-3 col-sm-1"></div>
+        <div class="col-lg-6 col-md-6  col-sm-10 border border-1 border-grey rounded rounded-o">
+            <table class="table">
+                <thead class="" style="font-size:1.4rem;">
+                    <tr>
+                        <th scope="col">Dates</th>
+                        <th scope="col">Events</th>
+                    </tr>
+                </thead>
+
+                <tbody style="font-size:19px;font-family:inherit;">
+                    <tr>
+                        <td>29-10-2023</td>
+                        <td>Initial Idea Pitching</td>
+                    </tr>
+                    <tr>
+                        <td>20-11-2023</td>
+                        <td>Modified Idea Pitching</td>
+                    </tr>
+                    <tr>
+                        <td>14-02-2024</td>
+                        <td>POC Review</td>
+                    </tr>
+                    <tr>
+                        <td>24-03-2023</td>
+                        <td>Final Demo</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
+        <div class="col-lg-3 col-md-3 col-sm-1"></div>
+       
     </div>
+    <!-- final result button -->
+    <div class="row d-flex flex-row justify-content-center align-items-center " style="margin-top:4rem;margin-bottom:4rem;">
+        <a href="http://localhost/quantanics_web/public/pdf_file/student_result.pdf" class="btn btn-lg border border-2 border-danger rounded text-danger text-center button_hover" style="width:20rem;" download>Download Final  Result <i class="fa fa-download " ></i></a>
+    </div>
+    
 
     <!-- amenities -->
-    <div class="row" style="margin-top:4rem;margin-bottom:4rem;">
+    <!-- <div class="row" style="margin-top:4rem;margin-bottom:4rem;">
         <h2 class="mx-auto font-weight-bold text-center text-decoration-underline">Amenities</h2>
         <div class="col-lg-10 mx-auto">
             <ul class="list-group ml-2" style="font-size:19px;font-family:inherit;">
@@ -109,10 +148,10 @@ under this initiative.</p>
         <div class="col-lg-6">
             <img src="./aboutimages/abt5.png" class="img-thumbnail mx-auto" style="border:none;" alt="">
         </div>
-    </div>
+    </div> -->
 
     <!-- selection criteria -->
-    <div class="row " style="margin-top:4rem;">
+    <!-- <div class="row " style="margin-top:4rem;">
         <div class="col-lg-6">
             <img src="./eic/img4.png" class="img-thumbnail mx-auto" style="border:none;" alt="">
         </div>
@@ -150,11 +189,11 @@ under this initiative.</p>
             </div>
         </div>
        
-    </div>
+    </div> -->
 
 
     <!-- dates to remember -->
-    <div class="container " style="margin-top:4rem;">
+    <!-- <div class="container " style="margin-top:4rem;">
         <div class="row mb-4">
             <h2 class="text-decoration-underline text-center" style="font-family:inherit;">Dates To Remember</h2>
         </div>
@@ -305,7 +344,7 @@ under this initiative.</p>
         <div class="row">
             <p class="text-justify" style="font-size:19px;"> <span style="margin-left:1.3rem;"></span>Please contact Mr. Faiz at +91 83005 75800 or writeus@edgematrixcorp.com for support. We eagerly anticipate receiving your innovative proposals and assisting you in bringing your ideas to fruition through the STUDENT PoC SCHEME. Let us collaborate to create a better future!</p>
         </div>
-    </div>
+    </div> -->
 
     <div class="m-4" style="margin:4.4rem;">
         <hr>
